@@ -1,0 +1,20 @@
+Person:                                 Points:                 Procent:                  Max point:
+                  
+Alexander                               28                      58,33%                    48                          
+Alexander(korteste kodning)             2                       4,17%                     48                          
+AndersK                                 13                      27,08%                    48                          
+Casper                                  3                       6,25%                     48                          
+ChristianLynge                          11                      22,92%                    48                          
+FredrikMikkelsen                        22                      45,83%                    48                          
+HamzahHussain                           6                       12,50%                    48                          
+JakobStøttrupLarsen                     5                       10,42%                    48                          
+Johnny                                  17                      35,42%                    48                          
+JonathanL                               13                      27,08%                    48                          
+Lamin                                   10                      20,83%                    48                          
+Roland                                  6                       12,50%                    48                          
+Thomas                                  26                      54,17%                    48                          
+Toke                                    24                      50,00%                    48                          
+Ulrik                                   2                       4,17%                     48                          
+
+NOTE: Følgende opgaver er ikke leveret korrekt. Check selv, om der skal udleveres flere point: 
+[1TGoL.java, 1ZIZ1.java, 2TGoL.java, 2ZIZ1.java, 3TGoL.java, 3ZIZ1.java, 4TGoL.java, 4ZIZ1.java, ExerciseWeight.txt, Muhammad Ali Khan - PC1 og PC2 playing cards opgave.zip, TGoL.java, ZIZ1.java]
