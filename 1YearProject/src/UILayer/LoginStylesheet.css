@@ -1,0 +1,8 @@
+.root{
+    -fx-background-image: url("bgpic.jpg"), url("logoBlack.png");
+    -fx-background-repeat: stretch, no-repeat;
+    -fx-background-size: 800 500, 170 40;
+    -fx-background-position: center center, 50% 28%;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+

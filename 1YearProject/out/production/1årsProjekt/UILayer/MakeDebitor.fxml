@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LogicLayer.DebitorWindow">
+   <center>
+      <SplitPane dividerPositions="0.28595317725752506" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox prefHeight="398.0" prefWidth="168.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button fx:id="add_Debitor" mnemonicParsing="false" onAction="#addDebitor" prefHeight="39.0" prefWidth="170.0" text="Tilføj" />
+                        <TextField fx:id="debitor_Id" prefHeight="25.0" prefWidth="132.0" promptText="Debitor Nr." />
+                        <TextField fx:id="debitor_Name" promptText="Firma Navn" />
+                        <TextField fx:id="debitor_Phone_Number" promptText="Kontakt Nr." />
+                        <TextField fx:id="debitor_ContactPerson" promptText="Kontakt person navn" />
+                        <TextField promptText="Søgefelt" />
+                        <Button fx:id="delete_Debitor" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#debitorDelete" prefHeight="30.0" prefWidth="185.0" snapToPixel="false" text="Delete" />
+                        <Button fx:id="back_Button" mnemonicParsing="false" onAction="#goBack" prefHeight="37.0" prefWidth="237.0" text="Back" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView prefHeight="400.0" prefWidth="444.0">
+                    <columns>
+                      <TableColumn fx:id="debitor_Number" prefWidth="75.0" text="Debitor Nr." />
+                      <TableColumn fx:id="company_Name" prefWidth="97.0" text="Firma Navn" />
+                        <TableColumn fx:id="company_Phone_Number" prefWidth="119.0" text="Kontakt Nr" />
+                        <TableColumn fx:id="company_Person" prefWidth="134.0" text="Kontakt Person" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>
